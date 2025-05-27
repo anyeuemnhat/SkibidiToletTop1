@@ -1,0 +1,268 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/anyeuemnhat/SkibidiToletTop1/refs/heads/main/yukiyeuem"))()
+local window = OrionLib:MakeWindow({
+    Name = "An Dz",
+    HidePremium = false,
+    SveConfig = true,
+    ConfigFolder ="AnDz"
+})
+
+local Tab = window:MakeTab({
+    Name = "Script Blox Kid",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+local Tab2 = window:MakeTab({
+    Name = "Script Dead Rails",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+local Tab3 = window:MakeTab({
+    Name = "Grow A Garden",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+local Tab4 = window:MakeTab({
+    Name = "Script Fly",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+local Tab5 = window:MakeTab({
+    Name = "Blue Lock Rival",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+local Tab6 = window:MakeTab({
+    Name = "Coming Soon:3",
+    Icon = "rbxassetid://7229442422",
+    PremiumOnly = false
+})
+
+
+Tab:AddButton({
+    Name = "W azure Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        getgenv().Team = "Marines"
+
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Redz Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+end
+})
+
+Tab:AddButton({
+    Name = "Astral Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Quantum Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Mukuro Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua", true))()
+        
+    end
+})
+
+Tab:AddButton({
+    Name = "Xero Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Gangten Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Quartz Kaitun Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        getgenv().Mode = "OneClick"
+getgenv().Setting = {
+    ["Team"] = "Pirates", -- Options "Pirates", "Marines"
+    ["FucusOnLevel"] = true,
+    ["Fruits"] = {  -- setting for fruits u want
+        ["Primary"] = { -- if current fruit is not in this list, eat/buy
+            "Dough-Dough",
+            "Dragon-Dragon",
+            "Buddha-Buddha",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        },
+        ["Normal"] = { -- it just a normal fruit list
+            "Flame-Flame",
+            "Light-Light",
+            "Magma-Magma",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        }
+        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
+    },
+    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
+};
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+end
+})
+
+Tab:AddButton({
+    Name = "Maru Hub Cracked",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Hiru Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Volcano Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoNewUpdated.luau"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Lion Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NHMdz/BloxFruit/refs/heads/main/Lion%20Hub.lua"))()
+
+    end
+})
+
+Tab2:AddButton({
+    Name ="Spinceware Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SpineWare/UniversalLoader/refs/heads/main/Load"))()
+
+    end
+})
+
+Tab2:AddButton({
+    Name ="Nicuse Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://nicuse.xyz/MainHub.lua"))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "Script 1",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nootmaus/GrowAAGarden/refs/heads/main/mauscripts"))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "Script 2",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "Script 3",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "Script 4",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BrySadW/GrowAGarden/refs/heads/main/GrowAGarden.lua"))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "Script 5",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/Multi'))()
+    end
+})
+
+Tab4:AddButton({
+    Name = "Đéo có(Sắp Có)",
+})
+
+Tab5:AddButton({
+    Name =" XZuyaX Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XZuuyaX/XZuyaX-s-Hub/refs/heads/main/Main.Lua", true))()
+    end
+})
+
+Tab5:AddButton({
+    Name = "Dehsium Hub",
+    Callback = function()
+        repeat wait(2) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dehism/Dehism/refs/heads/main/Inf%20Spins%20Auto%20Dehism",true))()
+    end
+})
+
+Tab6:AddButton({
+    Name ="Có",
+})
+
+Tab6:AddButton({
+    Name = "Cái",
+})
+
+Tab6:AddButton({
+    Name = "Đầu Puồi",
+})
